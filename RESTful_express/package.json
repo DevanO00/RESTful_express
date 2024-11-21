@@ -1,0 +1,22 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.6.2",
+    "node-fetch": "^3.3.2"
+  },
+  "description": ""
+}

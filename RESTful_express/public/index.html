@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Menu Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Menu Manager</h1>
+
+    <!-- BUTTONS TOP START -->
+    <div class="buttonAreaTop">
+      <button class="btnAdd">Add</button>
+      <button class="btnUpdate">Update</button>
+      <button class="btnDelete">Delete</button>
+    </div>
+    <!-- BUTTONS TOP END -->
+
+    <!-- INPUT AREA START -->
+    <div class="inputArea">
+      <!-- ID INPUT AREA START -->
+      <div class="idArea">
+        <label for="itemID" class="labelID">Item ID</label>
+        <input id="itemID" type="number" min="0" max="999" />
+      </div>
+      <!-- ID INPUT AREA END -->
+
+      <!-- CATEGORY INPUT AREA START -->
+      <div class="categoryArea">
+        <label for="itemCategory" class="labelCategory">Item Category</label>
+        <input id="itemCategory" />
+      </div>
+      <!-- CATEGORY INPUT AREA END -->
+
+      <!-- DESCRIPTION INPUT AREA START -->
+      <div class="descriptionArea">
+        <label for="descriptionCategory" class="labelDescription"
+          >Item Description</label
+        >
+        <input id="descriptionCategory" />
+      </div>
+      <!-- DESCRIPTION INPUT AREA END -->
+
+      <!-- PRICE INPUT AREA START -->
+      <div class="priceArea">
+        <label for="priceCategory" class="labelPrice">Item Price</label>
+        <input id="priceCategory" type="number" min="0" />
+      </div>
+      <!-- PRICE INPUT AREA END -->
+
+      <!-- VEGETARIAN CHECKBOX AREA START -->
+      <div class="vegetarianArea">
+        <label for="vegetarianCategory" class="checkboxVegetarian"
+          >Is Item Vegetarian?</label
+        >
+        <input id="vegetarianCategory" type="checkbox" />
+      </div>
+      <!-- VEGETARIAN CHECKBOX AREA END -->
+
+      <!-- ACCEPT BUTTON AREA START -->
+      <div class="buttonAreaBottom">
+        <button class="btnAccept">Accept</button>
+        <button class="confirmDelete">Confirm Delete</button>
+        <button class="btnCancel">Cancel</button>
+      </div>
+      <!-- ACCEPT BUTTON AREA END -->
+    </div>
+    <!-- INPUT AREA END -->
+
+    <!-- TABLE AREA FOR DISPLAYING START -->
+    <div class="tableArea" id="menuItems"></div>
+    <!-- TABLE AREA FOR DISPLAYING END -->
+  </body>
+</html>
